@@ -3,6 +3,8 @@ alias ls='ls -G'
 alias rm='rm -i'
 alias vi='vim'
 
-alias synczstack='bash $HOME/.local/share/zinit/plugins/Pilipupu---myalias/bash/synczstack.sh'
-alias g='bash $HOME/.local/share/zinit/plugins/Pilipupu---myalias/bash/g.sh'
+CURRENT_DIR=$(pwd)
+BASH_DIR=$CURRENT_DIR/bash
+alias synczstack="bash $BASH_DIR/synczstack.sh"
+alias g="bash $BASH_DIR/g.sh"
 alias mt='bash /root/shell/mvt.sh'
