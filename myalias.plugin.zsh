@@ -8,4 +8,4 @@ BASH_DIR=$CURRENT_DIR/bash
 alias synczstack="bash $BASH_DIR/synczstack.sh"
 alias g="bash $BASH_DIR/g.sh"
 alias mt='bash /root/shell/mvt.sh'
-alias updatedb='/usr/libexec/locate.updatedb'
+alias updatedb='sudo /usr/libexec/locate.updatedb'
