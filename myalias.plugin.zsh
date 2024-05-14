@@ -9,3 +9,5 @@ alias synczstack="bash $BASH_DIR/synczstack.sh"
 alias g="bash $BASH_DIR/g.sh"
 alias mt='bash /root/shell/mvt.sh'
 alias updatedb='sudo /usr/libexec/locate.updatedb'
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
