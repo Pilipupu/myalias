@@ -349,5 +349,6 @@ zinit wait"0" lucid for \
 	atload"unalias g" \
         OMZ::plugins/git/git.plugin.zsh \
 		OMZ::plugins/copyfile/copyfile.plugin.zsh \
-        Pilipupu/myalias
+        Pilipupu/myalias \
+        Dbz/kube-aliases
 eval "$(pyenv init -)"
